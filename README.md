@@ -1,8 +1,3 @@
-# ESP32-DHAN-Portfolio-Indicator
-IoT-based real-time stock portfolio monitoring system using ESP32, DHAN API, OLED display, and LED indicators. Fetches live profit/loss and visualizes it through color-coded lights and an OLED dashboard.
-
-
-
 # IoT-Based Real-Time Stock Portfolio Indicator using ESP32 and DHAN API
 
 ## 📘 Overview
@@ -42,3 +37,54 @@ This project connects an ESP32 microcontroller with the DHAN Developer API to mo
 ---
 
 ## 🖥 Output Example
+
+ETFs Summary
+Invested : ₹2280787
+Current : ₹2237660
+P/L ₹ : -43127
+P/L % : -1.89
+
+
+- 🟢 **Green LED** → Profit  
+- 🔴 **Red LED** → Loss  
+- 🟡 **Yellow LED** → Neutral  
+
+---
+
+## 🧰 Libraries Used
+- `WiFi.h`
+- `WiFiClientSecure.h`
+- `HTTPClient.h`
+- `ArduinoJson.h`
+- `Adafruit_GFX.h`
+- `Adafruit_SSD1306.h`
+
+---
+
+## 📷 Demo & Results
+Include screenshots and video:
+- OLED display showing category summary  
+- LEDs changing color based on P/L  
+- Serial output showing live API data  
+
+---
+
+## 🧾 Report
+Full project documentation:  
+📄 [`ESP32_DHAN_Portfolio_Project_Report.pdf`](report/ESP32_DHAN_Portfolio_Project_Report.pdf)
+
+---
+
+## 🧩 Future Improvements
+- Auto token refresh via cloud function  
+- Telegram/Email alerts  
+- Voice-based status report  
+- Integration with Google Home or Alexa  
+
+---
+
+## 👨‍💻 Author
+**Chintha Deepak**  
+B.Tech CSE (AI & Robotics)  
+💼 https://www.linkedin.com/in/chinthadeepak2305/
+📧 deepakchintha2305@gmail.com
